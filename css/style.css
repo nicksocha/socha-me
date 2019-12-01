@@ -1,0 +1,84 @@
+/* * {
+  border: 1px solid gray;
+} */
+
+html {
+  --black: #333;
+  --blue: #1e73be;
+  --gray: #b7b7b7;
+  --light-black: #666;
+  --light-blue: #8eb9de;
+  --white: #fff;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Sedgwick Ave", handwriting;
+  margin: 0;
+}
+
+footer {
+  color: var(--white);
+  background: var(--blue);
+  padding: 50px 0;
+  text-align: center;
+}
+
+h1 {
+  color: var(--black);
+  font-family: "Caveat", handwriting;
+  font-size: calc(1.5rem + 4.5vw);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-shadow: 0 12px 12px rgba(0, 0, 0, 0.4);
+}
+
+h4 {
+  color: var(--light-black);
+  font-family: "Sedgwick Ave", handwriting;
+  font-size: calc(0.5rem + 1.2vw);
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0em 0.09em 0.09em #0c71c3;
+}
+
+p {
+  font-family: "Fira Sans", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.fullwidth-header {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  max-width: calc(15.5rem + 45vw);
+}
+
+.fullwidth-header-image {
+  margin: -5vw auto;
+  max-width: calc(15.5rem + 50vw);
+  padding: 0;
+}
+
+.fullwidth-image {
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.header-resume-button {
+  background-color: var(--blue);
+  border-radius: 7px;
+  border: 2px solid var(--black);
+  color: var(--white);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  margin-top: 1rem;
+  padding: 0.3rem 1rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
