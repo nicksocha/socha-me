@@ -24,6 +24,17 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: var(--white);
+  text-decoration: none;
+  transition-duration: 300ms;
+}
+
+footer a:hover {
+  color: var(--light-blue);
+  text-decoration: underline;
+}
+
 h1 {
   /* Welcome to Socha.me */
   color: var(--black);
@@ -195,7 +206,7 @@ ul {
 }
 
 .header-resume-button span {
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -269,7 +280,7 @@ ul {
   margin: 0;
   max-height: 50px;
   max-width: 50px;
-  padding: 0;
+  padding: 0 5px 0 0;
 }
 
 .resume-image {
