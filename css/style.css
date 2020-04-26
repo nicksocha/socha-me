@@ -1,5 +1,5 @@
 a {
-  color: var(--light-black);
+  color: var(--blue);
   margin: 0;
   outline: 0;
   padding: 0;
@@ -8,7 +8,7 @@ a {
 }
 
 a:hover {
-  color: var(--blue);
+  color: var(--light-blue);
   text-decoration: underline;
 }
 
