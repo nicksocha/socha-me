@@ -330,6 +330,11 @@ ul {
   font-family: "Font Awesome 5 Pro";
 }
 
+#word span:after {
+  content: "\f1c2";
+  font-family: "Font Awesome 5 Pro";
+}
+
 @media (max-width: 1000px) {
   h5 {
     text-align: center;
