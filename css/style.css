@@ -241,7 +241,7 @@ ul {
 }
 
 .header-resume-button:hover span {
-  padding-right: 21px;
+  padding-right: 26px;
 }
 
 .header-resume-button:hover span:after {
@@ -329,12 +329,7 @@ ul {
 
 #pdf span:after {
   content: "\f1c1";
-  font-family: "Font Awesome 5 Pro";
-}
-
-#word span:after {
-  content: "\f1c2";
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Font Awesome 6 Pro";
 }
 
 @media (max-width: 1000px) {
